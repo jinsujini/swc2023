@@ -57,16 +57,19 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/ll_sellinfm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
                 <ImageView
+                    android:id="@+id/tv_sellepic"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
                     android:src="@mipmap/ic_launcher" />
 
                 <TextView
+                    android:id="@+id/tv_productinfo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
@@ -77,6 +80,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/tv_productselect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
@@ -86,6 +90,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/ll_t">
 
                 <Button
+                    android:id="@+id/bt_ps1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edge"
@@ -97,6 +102,7 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/bt_ps2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edge"
@@ -109,6 +115,7 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/bt_ps3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edge"
@@ -120,6 +127,7 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/bt_ps4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edge"
@@ -131,6 +139,7 @@
                     android:textColor="@color/black" />
 
                 <Button
+                    android:id="@+id/bt_ps5"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/edge"
@@ -146,6 +155,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/ll_optionPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
@@ -155,6 +165,7 @@
                 android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/tv_op1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edge"
@@ -162,6 +173,7 @@
                     android:text="옵션 누른거 여기뜸" />
 
                 <TextView
+                    android:id="@+id/tv_op2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -170,6 +182,7 @@
                     android:text="수량" />
 
                 <TextView
+                    android:id="@+id/tv_op3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
@@ -188,12 +201,14 @@
                 android:contentDescription="Bt"/>
 
             <LinearLayout
+                android:id="@+id/tv_totalPrice"
                 android:layout_width="283dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
                 android:background="@drawable/edge">
 
                 <TextView
+                    android:id="@+id/tv_tp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="130dp"
