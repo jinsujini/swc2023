@@ -44,16 +44,17 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5">
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0">
 
 
         <LinearLayout
             android:id="@+id/ll_t"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -69,8 +70,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="25dp"
-                    android:textColor="@color/black"
-                    android:text="뽀룡이 학잠\n금액:59,000" />
+                    android:text="뽀룡이 학잠\n금액:59,000"
+                    android:textColor="@color/black" />
 
 
             </LinearLayout>
@@ -78,68 +79,129 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
                 app:layout_constraintTop_toBottomOf="@+id/ll_t">
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:background="@drawable/edge"
                     android:paddingLeft="110dp"
-                    android:paddingRight="110dp"
                     android:paddingTop="5dp"
+                    android:paddingRight="110dp"
                     android:paddingBottom="5dp"
                     android:text="XS 사이즈"
-                    android:background="@drawable/edge"/>
+                    android:textColor="@color/black" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:background="@drawable/edge"
                     android:paddingLeft="110dp"
-                    android:paddingRight="110dp"
                     android:paddingTop="5dp"
+                    android:paddingRight="110dp"
                     android:paddingBottom="5dp"
 
                     android:text="S 사이즈"
-                    android:background="@drawable/edge"/>
+                    android:textColor="@color/black" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:background="@drawable/edge"
                     android:paddingLeft="110dp"
-                    android:paddingRight="110dp"
                     android:paddingTop="5dp"
+                    android:paddingRight="110dp"
                     android:paddingBottom="5dp"
                     android:text="M 사이즈"
-                    android:background="@drawable/edge"/>
+                    android:textColor="@color/black" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:background="@drawable/edge"
                     android:paddingLeft="110dp"
-                    android:paddingRight="110dp"
                     android:paddingTop="5dp"
+                    android:paddingRight="110dp"
                     android:paddingBottom="5dp"
                     android:text="L 사이즈"
-                    android:background="@drawable/edge"/>
+                    android:textColor="@color/black" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:textColor="@color/black"
+                    android:background="@drawable/edge"
                     android:paddingLeft="110dp"
-                    android:paddingRight="110dp"
                     android:paddingTop="5dp"
+                    android:paddingRight="110dp"
                     android:paddingBottom="5dp"
                     android:text="XL 사이즈"
-                    android:background="@drawable/edge"/>
+                    android:textColor="@color/black" />
+
                 <!--아니진짜여기부터 뭘해도 거지같아집니다......하............도와주세요-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edge"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edge"
+
+                    android:text="옵션 누른거 여기뜸" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+
+                    android:background="@drawable/edge"
+                    android:text="수량" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+
+                    android:background="@drawable/edge"
+                    android:text="가격" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="291dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="40dp"
+                app:srcCompat="@android:drawable/ic_input_add"
+                android:contentDescription="Bt"/>
+
+            <LinearLayout
+                android:layout_width="283dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:background="@drawable/edge">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/edge"
+                    android:text="가격" />
 
             </LinearLayout>
 
