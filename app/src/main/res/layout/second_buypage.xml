@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="192dp"
+        android:textColor="@color/black"
+        android:text="결제"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="9dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="뒤로가기버튼"
+        app:srcCompat="@android:drawable/ic_media_rew" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5">
+
+
+        <LinearLayout
+            android:id="@+id/ll_t"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/black"
+                    android:text="뽀룡이 학잠\n금액:59,000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                app:layout_constraintTop_toBottomOf="@+id/ll_t">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="XS 사이즈"
+                    android:background="@drawable/edge"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+
+                    android:text="S 사이즈"
+                    android:background="@drawable/edge"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="M 사이즈"
+                    android:background="@drawable/edge"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="L 사이즈"
+                    android:background="@drawable/edge"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:paddingLeft="110dp"
+                    android:paddingRight="110dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="XL 사이즈"
+                    android:background="@drawable/edge"/>
+                <!--아니진짜여기부터 뭘해도 거지같아집니다......하............도와주세요-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
