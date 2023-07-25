@@ -9,7 +9,7 @@
 
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bt_dn"
         android:layout_width="400dp"
         android:layout_height="0dp"
         android:layout_marginStart="13dp"
@@ -17,14 +17,14 @@
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="47dp"
         android:background="@color/white"
-        android:text="주요 학교 공지 제목"
-        app:layout_constraintBottom_toTopOf="@+id/divider"
+        android:text="주요 학과 공지 제목"
+        app:layout_constraintBottom_toTopOf="@+id/dv_dn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_dn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -33,11 +33,11 @@
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/bt_dn"
         app:layout_constraintVertical_bias="1.0" />
 
     <View
-        android:id="@+id/divider"
+        android:id="@+id/dv_dn"
         android:layout_width="450dp"
         android:layout_height="2dp"
         android:layout_marginStart="1dp"
@@ -48,7 +48,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+         />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -57,7 +57,7 @@
 
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider">
+        app:layout_constraintTop_toBottomOf="@+id/dv_dn">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,79 +69,79 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="10dp"
-                android:text="학교 공지 제목1 / 작성자 / 작성일 / 조회수" />
+                android:text="학과 공지 제목1 / 작성자 / 작성일 / 조회수" />
 
 
             <!--DB연동을 해야할 것 같은데요.. ?-->
@@ -151,7 +151,7 @@
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/iv_un1"
+        android:id="@+id/iv_dv1"
         android:layout_width="84dp"
         android:layout_height="57dp"
         android:layout_marginStart="4dp"
@@ -162,12 +162,12 @@
         android:scaleType="fitCenter"
 
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/iv_un2"
+        app:layout_constraintEnd_toStartOf="@+id/iv_dv2"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/img" />
 
     <ImageButton
-        android:id="@+id/iv_un2"
+        android:id="@+id/iv_dv2"
         android:layout_width="88dp"
         android:layout_height="61dp"
         android:layout_marginStart="100dp"
@@ -178,12 +178,12 @@
         android:contentDescription="학교관련"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/iv_un3"
+        app:layout_constraintEnd_toStartOf="@+id/iv_dv3"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/img_1" />
 
     <ImageButton
-        android:id="@+id/iv_un3"
+        android:id="@+id/iv_dv3"
         android:layout_width="88dp"
         android:layout_height="61dp"
         android:layout_marginBottom="12dp"
@@ -198,7 +198,7 @@
         app:srcCompat="@drawable/img_2" />
 
     <ImageButton
-        android:id="@+id/iv_un4"
+        android:id="@+id/iv_dv4"
         android:layout_width="88dp"
         android:layout_height="61dp"
         android:layout_marginBottom="12dp"
@@ -208,7 +208,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/iv_un3"
+        app:layout_constraintStart_toEndOf="@+id/iv_dv3"
         app:srcCompat="@drawable/img_3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

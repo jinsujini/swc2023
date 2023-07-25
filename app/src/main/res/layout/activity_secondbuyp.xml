@@ -44,7 +44,7 @@
         android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.0">
@@ -156,7 +156,7 @@
 
             <LinearLayout
                 android:id="@+id/ll_optionPrice"
-                android:layout_width="wrap_content"
+                android:layout_width="291dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="15dp"
@@ -172,20 +172,21 @@
 
                     android:text="옵션 누른거 여기뜸" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tv_op2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
+                    android:layout_width="63dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="수량"
 
-                    android:background="@drawable/edge"
-                    android:text="수량" />
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/tv_op3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="40dp"
 
                     android:background="@drawable/edge"
                     android:text="가격" />
@@ -197,8 +198,8 @@
                 android:layout_width="291dp"
                 android:layout_height="48dp"
                 android:layout_marginLeft="40dp"
-                app:srcCompat="@android:drawable/ic_input_add"
-                android:contentDescription="Bt"/>
+                android:contentDescription="Bt"
+                app:srcCompat="@android:drawable/ic_input_add" />
 
             <LinearLayout
                 android:id="@+id/tv_totalPrice"
@@ -217,6 +218,46 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/edge"
                     android:text="가격" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_buyinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_seller_s"
+                    android:layout_width="287dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_squre"
+                    android:padding="10dp"
+                    android:text="2023/11/11까지 입금을 완료해주시기 바랍니다\n123-1234576-12345 신한 홍길동"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_squre"
+                    android:padding="10dp"
+                    android:text="입금자명/학번을 입력해주세요"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/tv_phonenum"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_squre"
+                    android:padding="10dp"
+                    android:text="전화번호를 입력해주세요" />
 
             </LinearLayout>
 
