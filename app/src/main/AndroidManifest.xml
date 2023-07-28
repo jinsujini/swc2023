@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CAMBUS"
         tools:targetApi="31">
+        <!--추가한 부분 시작-->
         <activity
             android:name=".DepartNotionActivity"
             android:exported="true" />
@@ -21,6 +22,7 @@
         <activity
             android:name=".SecondBuyPActivity"
             android:exported="true" />
+        <!--추가한 부분 끝-->
         <activity
             android:name=".MainActivity"
             android:exported="true">
